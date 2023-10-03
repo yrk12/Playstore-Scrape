@@ -1,0 +1,162 @@
+*{
+    font-family: Roboto;
+    /* border : 1px solid black; */
+}
+
+.navbar{
+    height : 80px;
+    background-color: #1F2640;
+}
+
+.logo{
+    margin-left : 10%;
+    height : 80%;
+    width : 10%;
+    bottom: 10%;
+}
+
+.refresh{
+    height : 40%;
+    margin-right: 10%;
+}
+
+.back {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    margin-top: 5px;
+    margin-left: 10%;
+}
+
+.download{
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+    margin-left: 10%;
+}
+
+.card{
+    width: 397px;
+    height: 238px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.appname{
+    height: 109px;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.fa{
+    font-size: 40px;
+}
+
+.glyphicon-star {
+    color: #e67e22;
+    &.half {
+      position: relative;
+      &:before {
+        position: relative;
+        z-index: 9;
+        width: 47%;
+        display: block;
+        overflow: hidden;
+      }
+      &:after {
+        content: '\e006';
+        position: absolute;
+        z-index: 8;
+        color: #bdc3c7;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+
+.stars{
+    width: 50%;
+    height: 35px;
+    margin-bottom: 5px;
+}
+
+.apptype{
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+button{
+    width: 70%;
+}
+
+.unchecked{
+    font-size: 20px;
+    color: #9CA2B7;
+    width: 21px;
+}
+
+.checked{
+    color: #FFEA82;
+    width: 21px;
+}
+
+.appname{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #2B416C;
+}
+
+
+.apptype{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #7788A3;
+    letter-spacing: 0px;
+}
+
+.scrolling-wrapper{
+	overflow-x: auto;
+    margin-left: 10%;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+}
+.imgs{
+    height: 240px;
+    width: 320px;
+}
+
+.desc{
+    margin-left: 10%;
+    width: 1074px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #7788A3;
+    letter-spacing: 0cm;
+}
+
+.card{
+    border: none;
+}
